@@ -1,2 +1,2 @@
-01_001_01=Desktop lamp 1=bool=0
+01_001_01=Desktop lamp 1=bool=1
 01_002_01=Desktop lamp 2=percent=100

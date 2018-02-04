@@ -30,8 +30,8 @@ $(document).ready(function () {
                     }
                     else if(result[id]["type"] === "percent"){
 
-                        html += 'None';
-                        //html += '<input type="text" placeholder="' + result[id]["value"] + '">';
+                        //html += 'None';
+                        html += '<input type="text" placeholder="' + result[id]["value"] + '">';
                     }
                     else{
 
