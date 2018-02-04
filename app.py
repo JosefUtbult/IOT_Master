@@ -10,6 +10,10 @@ app = flask.Flask(__name__)
 def variables(variables):
     return Parsing.variable(variables)
 
+@app.route("/internalVariable/<string:variables>", methods=["POST"])
+def internalVariables(variables):
+    return Parsing.variable(variables)
+
 
 @app.route("/getTime")
 def getTime():
@@ -32,6 +36,7 @@ def flip(id):
         return flask.jsonify("Failed.")
 
     return flask.jsonify("Susess.")
+
 
 
 
